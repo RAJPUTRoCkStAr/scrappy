@@ -65,7 +65,7 @@ ROBOTSTXT_OBEY = True
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
 ITEM_PIPELINES = {
-    'electscrap.pipelines.ElectionPipeline': 10000000000000,
+    'electscrap.pipelines.ElectionPipeline': 500,
 }
 
 # Enable and configure the AutoThrottle extension (disabled by default)

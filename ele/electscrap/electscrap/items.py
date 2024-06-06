@@ -27,3 +27,9 @@ class ResdataItem(scrapy.Item):
     Name = scrapy.Field()
     WonParty = scrapy.Field()
 
+class ThirddataItem(scrapy.Item):
+    PartyState = scrapy.Field()
+    TotalSeat = scrapy.Field()
+    PartyName = scrapy.Field()
+    PartyTotalNumber = scrapy.Field()
+
